@@ -8,4 +8,4 @@ export const healthRoute = express.Router();
 
 healthRoute.get("", healthController);
 
-// healthRoute.get("/dot-env", dotEnvController);
+healthRoute.get("/dot-env", dotEnvController);
